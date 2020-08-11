@@ -8,6 +8,7 @@ html, body {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
   color: white;
   background-color: black;
   background-image: url('images/background.jpg');
@@ -20,12 +21,12 @@ body {
 
 h1 {
   text-align: center;
+  text-shadow: 0 3px 5px #4f4fff;
 }
 
 h2 {
-  background-color: rgba(0, 0, 180, 0.8);
-  padding: 0.5em;
-  margin: 0px;
+  text-align: center;
+  text-shadow: 0 3px 5px #4f4fff;
 }
 
 article {
@@ -37,6 +38,15 @@ article {
 
 }
 
+article h2 {
+  text-align: left;
+  text-shadow: none;
+  font-size: 1.25em;
+  background-color: rgba(12, 19, 109, 0.9);
+  padding: 0.5em;
+  margin: 0px;
+}
+
 footer {
   background-color: #111111;
   height: 80px;
@@ -45,7 +55,7 @@ footer {
 }
 
 .content {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 0.5em;
 }
 
