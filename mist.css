@@ -1,7 +1,10 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap');
+*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
 
 * {
   box-sizing: border-box;
@@ -23,6 +26,10 @@ body {
   background-attachment: fixed;
   padding: 0;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nova Flat', cursive;
 }
 
 header {
