@@ -119,9 +119,9 @@ footer {
 }
 
 .img-wrapper {
-  width: 400px;
+  max-width: 600px;
+  margin: auto;
   position: relative;
-  display: inline-block;
 }
 
 #feature-image-wrapper {
